@@ -198,5 +198,6 @@ function isNameExists (name,arr) {
 
  console.log(isNameExists("Tony",users))
 
-
+//hashTable
+let name = [,,,,,,,,]
 

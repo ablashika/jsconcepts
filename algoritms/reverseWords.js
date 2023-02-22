@@ -10,8 +10,10 @@ function reverseWords(string) {
         // reverse each words looping through backwards
          let wordsRevesed = ' '
         for (let i = word.length - 1; i >= 0; i--){
+       
             wordsRevesed += word[i]
         }
+
         
          reverseWordsArr = [  ...reverseWordsArr,wordsRevesed]
     });
@@ -33,4 +35,4 @@ const reverseW = (str) => {
 
 console.log(reverseW("May Bless You"))
 
-//Harmless Ransome Code
+//Harmless Ransome Codee

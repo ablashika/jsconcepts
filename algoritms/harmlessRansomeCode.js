@@ -5,6 +5,9 @@ function harmlessRansomeNote (noteText, magazineText) {
    let magazineObj = { }
    let foundAllNoteText = true;
 
+
+  //finding if notetext is in magaziObg
+  
    magazineArray.forEach(word => {
     if (!magazineObj[word]) {
         magazineObj[word] = 0;
@@ -12,7 +15,7 @@ function harmlessRansomeNote (noteText, magazineText) {
     };
 });
     
-    //finding if notetext is in magazi obg
+    //finding if notetext is in magaziObg
      
        noteArray.forEach(word => {
            if (magazineObj[word]) {
