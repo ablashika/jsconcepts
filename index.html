@@ -5,10 +5,21 @@
 </head>
 <body>
     
+    <script>
+        function birthdayCandle (candlesHeight){
+            let maxHeight = Math.max(...candlesHeight);
+           
+            let filteredHeight = candlesHeight.filter(function(height) {
+          return height === maxHeight;
+    });
+    return filteredHeight.length;
+        }
 
+        console.log(birthdayCandle([2,4,4,1,6]))
+    </script>
     <!-- <script src="concept.js"></script> -->
     <!-- <script src="algoritms/fibonacci.js"></script>
     <script src="algoritms/memoizedFibonacci.js"></script> -->
-   <script src="algoritms/mergeSort.js"></script>
+   <!-- <script src="algoritms/mergeSort.js"></script> -->
 </body>
 </html>

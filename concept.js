@@ -105,6 +105,8 @@ console.log(getSecrete())
 
 
 
+
+
 //currying multply()() eg 1
 
 function curuing (num1){

@@ -30,7 +30,7 @@ function sieveOfEra(n) {
   }
 
 
-  //returning the results
+  //returning the results3
   let results = []
   for (let i = 0; i < primes.length; i++) {
       if (primes[i]) {
