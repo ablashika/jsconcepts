@@ -9,6 +9,32 @@ function swapTwoNumbers(a,b){
 console.log(swapTwoNumbers(3,7))
 
 
+//checking if a number is prime
+
+function isPrime(n){
+
+    if (n === 2 || n === 3){
+       return 'PRIME'
+    }
+    if (n <= 1 || n % 2 === 0 || n % 3 === 0) {
+        return 'NOT PRIME';
+    }
+
+    //for optimization skipping all odd numbers
+    let sq = Math.sqrt(n)
+    for (let i = 3; i <= sq; i += 2){
+        if (n  % i === 0){
+            return 'NOT PRIME'
+        }
+    }
+    
+        return "PRIME"
+    
+
+}
+console.log(isPrime(6))
+
+
 
 
 
